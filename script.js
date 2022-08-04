@@ -11,7 +11,7 @@ if (time < 10) {
 }
 document.write(greeting);
 
-document.write("! " + userName + "! how are you?");
+document.write("! " + userName + "! These are my favorite movies. What are yours?");
 
 
 
