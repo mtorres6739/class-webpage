@@ -131,3 +131,13 @@ input[type=text], select {
   input[type=submit]:hover {
     background-color: darkolivegreen;
   }
+
+  .star-rating {
+    border: 0px solid black;    
+    max-width: 100%;  
+    margin: 25px; 
+    padding: 15px;
+    padding-top: 100px;
+    vertical-align: top;
+    text-align: center;  
+    

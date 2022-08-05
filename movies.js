@@ -13,13 +13,15 @@ function onsubmit(e) {
      msg.innerHTML = 'Please enter a movie';
 
      setTimeout(() => msg.remove(), 3000);
-} else {
-  const li = document.createElement('li');
-  li.appendChild(document.createTextNode(`${movieInput.value}`));
+    } else {
+    const li = document.createElement('li');
+    li.appendChild(document.createTextNode(`${movieInput.value}`));
 
-  movieList.appendChild(li);
+    movieList.appendChild(li);
 
-  // Clear fields
-  movieInput.value = '';
+    // Clear fields
+    movieInput.value = '';
 }
 }
+
+// This code was modified from a youtube tutorial called JavaScript Crash Course For Beginners by Traversy Media.
